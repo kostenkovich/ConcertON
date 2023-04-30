@@ -1,0 +1,101 @@
+.sectionConsertId{
+    margin: 100px 5% 50px 5%;
+    overflow: hidden;
+    /*
+    background-image: url(../media/img/axc.png);
+    background-size: 100%;
+    */
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 0 70px;
+    box-shadow: 0 0 30px black;
+    display: block;
+    border-radius: 7px;
+}
+
+
+.topInf{
+    display: block;
+}
+
+.nameGroupId{
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0px 0 40px 50px;
+    padding-top: 35px;
+    display: block;
+}
+
+.textDescription{
+    font-weight: 300;
+}
+
+.groupeList{
+    margin: 20px 0 0 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.bottomInf{
+    display: block;
+}
+.topInf ul{
+    margin: 10px 0 0 50px;
+}
+.topInf ul li {
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.infSecId ul{
+    margin: 25px 0 0 0px;
+    
+}
+
+.infSecId ul img{
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.568));
+    border: none;
+    margin-right: 20px;
+}
+
+.dateConsertId{
+    margin: 17px 0 4px 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.timeConsertId{
+    font-size: 15px;
+    font-weight: 400;
+}
+.placeId{
+    margin: 20px 0 0 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.saleId{
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.bottomInf button{
+    margin: 15px 0 50px 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0 0 10px black;
+    width: 200px;
+    padding: 5px 0px;
+    transition: 300ms;
+}
+.bottomInf button:hover{
+    width: 230px;
+    box-shadow: 0 0 15px black;
+    
+}

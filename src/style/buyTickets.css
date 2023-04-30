@@ -1,0 +1,406 @@
+
+.allTable{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 2;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: -148px 0 0 0px;
+    transition: 600ms;
+}
+
+.closeBuyPanel{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-image: url(../media/icon/free-icon-remove-1828851.png);
+    background-size: 100%;
+    z-index: 3;
+    display: flex;
+    margin-top: -370px;
+    margin-left: 450px;
+    border-radius: 12px;
+    filter: drop-shadow(0 0 5px rgb(48, 48, 48));
+    
+}
+
+.contBuy{
+    overflow: hidden;
+    width: 500px;
+    height: 421px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    position: absolute;
+    transition: 600ms ease;
+}
+
+.blockBuy{
+    width: 400px;
+    height: 421px;
+    padding: 30px 50px;
+    background-color: rgb(40, 115, 165);
+    margin: 0px 0 0 0px;
+    transition: ease 600ms;
+    position: absolute;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+
+
+.blockDesc{   
+    width: 400px;
+    height: 421px;
+    padding: 30px 50px;
+    background-color: rgb(165 40 40);
+    margin: 0px 0 0 0px;
+    transition: ease 400ms;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.contBtn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btnOk{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 2px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 300ms;
+    box-shadow: 0 0 7px rgb(29, 29, 29);
+    border-radius: 3px;
+}
+
+.btnOk:hover{
+    background-color: rgb(230, 230, 230);
+    color: rgb(63, 63, 63);
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.event{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1px;
+}
+
+.dateConsertTick{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1px;
+}
+
+.timeConsertTick{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.lastTickets{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+
+.saleTickets{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+
+.blockBarTickets{
+    display: block;
+}
+
+.saleBarTickets{
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.infSaleBarTickets{
+    width: 20px;
+    height: 20px;
+    background-image: url(../media/icon/free-icon-info-8345022.png);
+    filter: drop-shadow(0 0 3px rgb(78, 78, 78));
+    background-size: 100%;
+    margin: 0px 0px -3px 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bottomCont{
+    width: 100%;
+    display: block;
+}
+
+.mehano{
+    display: block;
+    
+}
+
+.howMany{
+    display: inline-block;
+    width: fit-content;
+    font-size: 16px;
+}
+
+.minus{
+    filter: drop-shadow(0 0 3px rgb(32, 32, 32)) ;
+    padding: 0;
+    border-radius: 10px;
+    width: fit-content;
+    background-image: url(../media/icon/free-icon-minus-2734848.png);
+    background-size: 100%;
+    width: 16px;
+    height: 16px;
+    margin: 2px 0 0 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.value{
+    box-shadow: none;
+    margin: 0 0px 0 42px;
+    display: inline-block;
+    padding-top: -3px;
+    height: 20px;
+    font-size: 16px;
+    width: 40%;
+}
+
+.plus{
+    filter: drop-shadow(0 0 3px rgb(32, 32, 32)) ;
+    padding: 0;
+    border-radius: 10px;
+    width: fit-content;
+    background-image: url(../media/icon/free-icon-plus-3303893.png);
+    background-size: 100%;
+    width: 16px;
+    height: 16px;
+    margin: 2px 0 0 calc(-40% + 57px);
+    margin-right: 40%;
+    display: inline-block;
+    position: absolute;
+}
+
+#addBarTickBtn{
+    padding: 3px 10px;
+    margin: 10px 0 0px 0;
+    background-color: rgb(241, 255, 47);
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    box-shadow: 0 0 5px rgb(36, 36, 36);
+    border-radius: 4px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 300ms;
+    display: inline-block;
+}
+
+#addBarTickBtn:hover{
+    box-shadow: 0 0 7px rgb(36, 36, 36);
+    background-color: rgba(107, 107, 107, 0);
+    color: rgb(54, 54, 54);
+    color: white;
+}
+
+.ind{
+    width: 20px;
+    height: 29px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 6px 0 0 20px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    
+    margin-top: -23px;
+    position: absolute;
+    transition: 300ms;
+    background-size: 100%;
+    background-image: url(../media/icon/free-icon-done-8104146.png);
+    filter: drop-shadow(0 0 3px rgb(78, 78, 78));
+}
+
+
+.lastBlock{
+    margin-top: 20px;
+}
+
+.allSale{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#buyTickBtn{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 4px 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgb(36, 36, 36);
+    margin-top: 12px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+#buyTickBtn:hover{
+    padding: 4px 80px;
+    box-shadow: 0 0 10px rgb(36, 36, 36);
+}
+
+
+.blockThenk{
+    
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(34, 151, 44);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.contThenk{
+    
+}
+
+.nameThank{
+    font-size: 25px;
+    font-weight: 300;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+}
+
+.blockImgThenk{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    margin: 0px 0 0 0;
+    justify-content: center;
+}
+
+.imgThenk{
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-image: url(../media/img/smileThenk.png);
+}
+
+.imgDont{
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-image: url(../media/img/smileDont.png);
+
+}
+
+.descThank{
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+.blockDont{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 115, 165);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.loadingBlock{
+    background-color: rgba(29, 29, 29, 0);
+    margin: 0px 0 0 0px;
+    transition: ease 600ms;
+    position: absolute;
+    z-index: 3;
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contLoad{
+    
+}
+
+.nameLoad{
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    transition: 400ms;
+    color: rgb(255, 255, 255)
+    ;
+}
+
+.prosses{
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    transition: 400ms;
+}
+
+.prosses_before{
+    content: "";
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(51, 115, 235);
+    position: absolute;
+    margin-left: -300px;
+    transition: 10s;
+}
+

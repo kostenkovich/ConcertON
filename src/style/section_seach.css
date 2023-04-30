@@ -1,0 +1,436 @@
+.conteiner{
+    display: block;
+    display: block;
+    margin: 70px 5% 50px 5%;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+.topInf{
+    
+}
+
+.seach{
+    width: 100%;
+    
+}
+
+.seach form{
+    margin: 0;
+    width: 100%;
+}
+
+@keyframes input {
+    
+
+    from{
+        border: 1px solid rgba(117, 117, 117, 0);
+    }
+    to{
+        border: 1px solid rgba(170, 170, 170, 0.747);
+    }
+}
+
+.seachInput{
+    width: calc(100% - 7px);
+    border: none;
+    padding: 5px 0px 4px 5px;
+    background-color: rgb(0 0 0 / 76%);
+    border-radius: 3px;
+    outline: none;
+    color: white;
+    border: 1px solid rgba(170, 170, 170, 0.747);
+    /*  
+    animation-name: input;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    */
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    box-shadow: 0 0 15px black;
+}
+
+.seachInput[placeholder]{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    
+}
+
+.seachInput::placeholder{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.buttonSeach{
+    
+    width: 107px;
+    height: 30px;
+    box-shadow: 0 0 0;
+    position: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 0px;
+    padding: 0px 0px 0 0px;
+    border-radius: 0px;
+    margin-left: -106px;
+    color: white;
+    border: none;
+    border-left: 1px solid rgba(170, 170, 170, 0.747);
+    
+}
+
+.blocks{
+    
+}
+
+.RightBlock{
+    width: 73%;
+    min-height: 400px;
+    margin: 0px 0 0px 27%;
+    display: block;
+}
+
+.allConcert{
+    margin: 0;
+}
+
+.allConcert ul{
+    margin: 0;
+    padding: 1px 0 1px 0;
+}
+
+.allConcert ul .conteiner a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.allConcert ul .conteiner{
+    background-image: url(../media/img/636fb9f42c005.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 20px 0% 10px 2%;
+    padding: 10px 0% 10px 2%;
+    border-radius: 4px;
+    border: 1px solid rgba(170, 170, 170, 0);
+    box-shadow: 0 0 15px black;
+}
+
+.nameCon{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px 0 0px 30px;
+}
+
+.descripCon{
+    font-size: 15px;
+    font-weight: 200;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 95%;
+}
+
+.iconCon{
+
+}
+
+.iconCon ul{
+    margin: 10px 0 0px 30px;
+}
+
+.iconCon ul img{
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+    
+}
+
+.blockBotInf{
+    display: inline-block;
+}
+
+.timeCon{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.dateCon{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.saleCon{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+.allConcert ul .conteiner a button{
+    width: auto;
+    margin: 3px 0px 0px 20px;
+    padding: 2px 17px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+.allConcert ul .conteiner a button:hover{
+    padding: 2px 30px;
+}
+
+.leftBlock{
+    background-color: #04040abb;
+    width: 23%;
+    max-width: 24%;
+    min-width: 22%;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 0;
+    display: inline-block;
+    position: fixed;
+    margin-top: 20px;
+    border: 1px solid rgba(170, 170, 170, 0.747);
+    box-shadow: 0 0 15px black;
+}
+
+.moreFilter{
+
+}
+
+.moreFilter .name{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 5% 0 5%;
+    
+    width: 90%;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.saleFilterBox{
+    margin: 0 5% 0 5%;
+    padding-bottom: 10px;
+    width: 90%;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.filterSaleName{
+    font-size: 16px;
+    font-weight: 200;
+    margin: 10px 10% 0 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.saleFilterBox form{
+    width: auto;
+    margin: 0;
+}
+
+.filterSale{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.filterSale input{
+    display: inline-block;
+    width: 60px;
+    padding: 5px 3px 4px 5px;
+    background-color: rgb(0 0 0 / 8%);
+    border-radius: 3px;
+    outline: none;
+    color: white;
+    border: 1px solid rgb(155, 155, 155);
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    box-shadow: 0 0 3px black;
+}
+
+.filterSale input::placeholder{
+    color: rgb(211, 211, 211);
+}
+
+.filterSale input[placeholder]{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    
+}
+
+.filterSale input:last-child{
+    margin-left: 20px;
+}
+
+.filterSaleButton{
+    font-size: 16px;
+    font-weight: 200;
+    margin: 10px 15% 0 15%;
+    width: 70%;
+    padding: 3px 0;
+    text-align: center;
+    border: 1px solid rgb(155, 155, 155);
+    color: white;
+    box-shadow: 0 0 8px black;
+    font-family: 'Mulish', sans-serif;
+    transition: 200ms;
+}
+
+.filterSaleButton:hover{
+    margin: 10px 10% 0 10%;
+    width: 80%;
+}
+
+.nameIsQue{
+    font-size: 16px;
+    font-weight: 200;
+    margin: 10px 10% 0 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.filterIsQue{
+    
+}
+
+.filterIsQue ul{
+    margin: 10px 0 20px 40px;
+}
+
+.filterIsQue ul label{
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0;
+    cursor: pointer;
+    
+    list-style-type: none;
+}
+
+.filterIsQue ul label li{
+    margin: 3px 0 0 -2px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.filterIsQue ul label li input{
+    margin:7px 0 0 20px;
+    display: none;
+}
+
+.filterIsQue ul label::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: rgb(189 189 189);
+    position: absolute;
+    margin: -17px 0 0 -25px;
+    box-shadow: 0 0 4px black;
+}
+
+.filterIsQue ul label:hover{
+    text-decoration: underline
+}
+
+.filterIsQue ul label:hover::after{
+    background-color: rgb(255, 255, 255);
+}
+
+.beforeLabelVis{
+    content: "";
+    width: 11px;
+    height: 11px;
+    border-radius: 15px;
+    background-color: rgb(34 71 100);
+    position: absolute;
+    margin: -15px 0 0 -23px;
+    z-index: 2;
+    transition: 300ms;
+}
+
+.bottomPage{
+    height: 30px;
+    width: 70%;
+    text-align: right;
+    padding-bottom: 5px;
+    margin: 10px 0 20px 0%;
+    display: block;
+
+}
+
+.bottomPage ul{
+    width: 145%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bottomPage ul a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 7px;
+    background-color: rgba(37, 37, 37, 0.35);
+    color: rgb(214, 214, 214);
+    box-shadow: 0 0 4px rgb(0 0 0);
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 17px;
+}
+
+
+
+.bottomPage ul a:first-child{
+    width: 70px;
+    text-align: center;
+    padding: 2px 7px;
+    margin-right: 10px;
+    border: solid 1px;
+    color: rgb(214, 214, 214);
+    box-shadow: 0 0 4px rgb(0 0 0);
+}
+
+.bottomPage ul a:last-child{
+    width: 70px;
+    text-align: center;
+    padding: 2px 7px;
+    color: rgb(214, 214, 214);
+    margin-left: 10px;
+    border: solid 1px;
+    box-shadow: 0 0 4px rgb(0 0 0);
+}
+
+
+.bottomPage ul a:nth-child(2){
+    border-bottom: solid 1px white;
+}
+
+.contBack{
+    margin: 5px 0px 5px 10px;
+    padding: 1px 8px 1px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 13px;
+
+}

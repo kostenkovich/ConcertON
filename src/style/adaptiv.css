@@ -1,0 +1,432 @@
+@media (max-width: 1100px){
+
+    .firstConteiner .block_1{
+        width: 80%;
+        margin: 40px 0 120px 5%;
+    }
+
+    .topMenu ul a:nth-child(4){
+        display: none;
+    }
+
+    .bottomMenu ul li:last-child {
+        margin: 0 0% 0 5%;
+        min-width: 251px;
+    }
+    .bottomMenu ul li:nth-child(4), .bottomMenu ul li:nth-child(5){
+        display: none;
+    }
+    
+}
+
+@media (max-width: 890px){
+    .topMenu ul a:nth-child(5){
+        display: none;
+    }
+
+}
+
+@media (max-width: 820px){
+    .secondConteiner .block_2 ul {
+        text-align: center;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .secondConteiner .block_2 ul a:last-child{
+        margin: 30px 6% 0 0;
+        
+    }
+
+    .tabCont{
+        width: 65px;
+    }
+
+    .line1 {
+        margin: 13px 15% 13px 15%;
+        width: 70%;
+    }
+    .line2 {
+        margin: 28px 15% 13px 15%;
+        width: 70%;
+    }
+    .line3 {
+        margin: 43px 15% 13px 15%;
+        width: 70%;
+    }
+
+    .firstConteiner .block_1 {
+        width: 97%;
+        margin: 40px 0 120px 2%;
+    }
+
+}
+
+@media (max-width: 750px){
+    .topMenu ul a:nth-child(6) {
+        display: none;
+    }
+}
+
+@media (max-width: 710px){
+    .tabButton{
+        display: block;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .topMenu ul a:nth-child(6) {
+        display: flex;
+    }
+
+    .topMenu ul a:nth-child(5) {
+        display: flex;
+    }
+
+    .topMenu ul a:nth-child(4) {
+        display: flex;
+    }
+
+    .logoHeader{
+        display: flex;
+    }
+
+    .topMenu ul{
+        height: 0px;
+        display: block;
+        position: absolute;
+        width: fit-content;
+        background-color: #000000eb;
+        padding: 0px 0px;
+        border-radius: 0 0 10px 10px;
+        left: 30px;
+        border: 1px solid transparent;
+        z-index: 1;
+        overflow: hidden;
+        transition: 400ms ease;
+    }
+    .topMenu ul a{
+        display: flex;
+        width: 470px;
+        justify-content: center;
+        font-size: 25px;
+        padding: 10px 0 5px 0;
+    }
+
+    .topMenu ul a:first-child{
+        margin-top: 5px;
+    }
+
+    .topMenu ul li:last-child{
+        display: flex;
+        width: 470px;
+        justify-content: center;
+        margin: 0;
+        font-size: 20px;
+    }
+    .register {
+        min-width: auto;
+        width: 80%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .register .reg {
+        width: fit-content;
+    }
+
+    body{
+    }
+    .bottomMenu ul li:last-child{
+        display: none;
+    }
+    .secondConteiner .block_2 ul a{
+        margin: 30px 6% 0 0;
+    }
+}
+
+@media (max-width: 610px){
+    body{
+    }
+    .topMenu ul a {
+        width: 300px;
+    }
+    .topMenu ul li:last-child {
+        width: 300px;
+    }
+    .topMenu ul {
+        left: calc(50% - 170px);
+    }
+}
+
+@media (max-width: 535px){
+    .topMenu ul{
+        left: 30px;
+    }
+}
+
+@media (max-width: 450px){
+    body{
+    }
+    .firstConteiner .block_1 {
+        width: 90%;
+        margin: 40px 0 120px 6%;
+    }
+    .tabCont {
+        width: 65px;
+    }
+}
+
+@media (max-width: 400px){
+    body{
+    }
+}
+
+@media (max-width: 385px){
+    .topMenu ul{
+        left: 5px;
+        width: 91%;
+        border-radius: 5px;
+    
+    }
+}
+
+@media (min-width: 945px){
+    body{
+    }
+}
+
+@media (min-width: 1250px){
+    body{
+    }
+}
+
+@media (min-width: 1440px){
+    body{
+    }
+    .topMenu ul{
+        font-size: 20px;
+        margin-top: 15px;
+        justify-content: center;
+    }
+    .register .reg {
+        width: 185px;
+    }
+    .register .sign {
+        margin-left: 10%;
+    }
+    .register {
+        min-width: 300px;
+    }
+    .firstConteiner .block_1 {
+        width: 60%;
+        margin: 100px 0 120px 12%;
+    }
+    .firstConteiner .block_1 .title {
+        font-size: 45px;
+    }
+    .firstConteiner .block_1 .desc {
+        width: 120%;
+        font-size: 23px;
+    }
+    .firstConteiner .block_1 button {
+        width: 390px;
+        font-size: 26px;
+        border-radius: 45px;
+    }
+    .secondConteiner .block_2 .title {
+        font-size: 42px;
+    }
+    .secondConteiner .block_2 ul a {
+        width: 320px;
+    }
+    .secondConteiner .block_2 ul a .nameTopConcert {
+        font-size: 32px;
+        height: 75px;
+    }
+    .secondConteiner .block_2 ul a .descTopConcert {
+        font-size: 20px;
+        margin: 15px 0 50px 0;
+    }
+    .iconTopConcert ul img {
+        width: 38px;
+        height: 38px;
+        margin: 0 7px 0 0px;
+    }
+    .secondConteiner .block_2 ul a .timeTopConcert {
+        font-size: 23px;
+    }
+    .secondConteiner .block_2 ul a .dateTopConcert {
+        font-size: 20px;
+    }
+    .secondConteiner .block_2 ul a .saleTopConcert {
+        font-size: 28px;
+        margin: 0 0 15px 0;
+    }
+    .secondConteiner .block_2 ul a button {
+        margin: 0 3% 20px 3%;
+        font-size: 22px;
+    }
+    .therdConteiner .block_3 .title {
+        font-size: 34px;
+    }
+    .therdConteiner .block_3 form input {
+        font-size: 24px;
+    }
+    .therdConteiner .block_3 form button {
+        margin-left: -1px;
+        font-size: 24px;
+    }
+    .bottomMenu ul li {
+        margin-left: 4%;
+        font-size: 18px;
+    }
+    .bottomMenu ul li:nth-child(3) {
+        min-width: 122px;
+    }
+    .bottomMenu ul li:last-child {
+        margin: 0 4% 0 13%;
+        min-width: 317px;
+    }
+    .bottomMenu ul li img {
+        width: 27px;
+        height: 27px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .seachInput::placeholder{
+        font-size: 24px;
+    }
+
+    .seachInput[placeholder] {
+        font-size: 24px;
+    }
+    .seachInput{
+        padding: 8px 0px 7px 10px;
+        width: calc(100% - 12px);
+    }
+    .buttonSeach {
+        width: 120px;
+        height: 46px;
+        font-size: 24px;
+        padding: 0px 0px 0 20px;
+        margin: 0px 0 0 -143px;
+    }
+
+    .seachInput{
+        border-radius: 5px;
+    }
+    
+    .leftBlock{
+        border-radius: 5px;
+    }
+    .moreFilter .name{
+        font-size: 22px;
+    }
+    .filterSale input[placeholder]{
+        font-size: 18px;
+    }
+    .filterSale input{
+        width: 120px;
+        padding: 5px 3px 8px 5px;
+    }
+    .filterSaleName {
+        font-size: 20px;
+    }
+    .filterSaleButton {
+        font-size: 20px;
+        margin: 13px 15% 5px 15%;
+        padding: 4px 0;
+    }
+    .nameIsQue {
+        font-size: 20px;
+    }
+    .filterIsQue ul label li {
+        margin: 4px 0 0 -2px;
+        font-size: 18px;
+    }
+    .nameCon {
+        font-size: 26px;
+    }
+    .descripCon {
+        font-size: 20px;
+    }
+    .iconCon ul img {
+        width: 27px;
+        height: 27px;
+    }
+    .timeCon {
+        font-size: 20px;
+    }
+    .dateCon {
+        font-size: 20px;
+    }
+    .saleCon {
+        font-size: 20px;
+    }
+    .allConcert ul .conteiner a button{
+        font-size: 21px;
+    }
+    .bottomPage ul a:first-child {
+        font-size: 24px;
+        width: 105px;
+    }
+    .bottomPage ul a:last-child {
+        font-size: 24px;
+        width: 105px;
+    }
+    .bottomPage ul a {
+        font-size: 24px;
+        padding: 2px 10px;
+    }
+    .nameGroupId {
+        font-size: 40px;
+    }
+    .textDescription {
+        font-size: 20px;
+    }
+    .groupeList {
+        font-size: 24px;
+    }
+    .topInf ul li {
+        font-size: 22px;
+    }
+    .infSecId ul img {
+        width: 50px;
+        height: 50px;
+    }
+    .dateConsertId {
+        font-size: 20px;
+    }
+    .timeConsertId {
+        font-size: 20px;
+    }
+    .placeId {
+        font-size: 22px;
+    }
+    .saleId {
+        font-size: 22px;
+    }
+    .bottomInf button {
+        font-size: 26px;
+        width: 310px;
+        border-radius: 5px;
+    }
+    .imgBack {
+        height: 130%;
+    }
+    .sectionConsertId {
+        margin: 100px 5% 200px 5%;
+    }
+}
